@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Launch Chrome with extension",
+        "url": "https://www.youtube.com",
+        "webRoot": "${workspaceFolder}",
+        "runtimeArgs": [
+          "--load-extension=C:/Users/vaibh/Documents/workspace/YoutubeAuto",
+          "--start-maximized",
+          "--auto-open-devtools-for-tabs"
+        ],
+        "sourceMaps": true,
+        "skipFiles": ["<node_internals>/**"]
+      }
+    ]
+  }
+  
